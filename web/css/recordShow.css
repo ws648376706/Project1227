@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    font-family: 微软雅黑;
+    margin: 0 auto;
+}
+
+.main {
+    background: url("../images/exinfo.png") no-repeat center;
+    width: 955px;
+    height: 850px;
+}
+
+.main h4 {
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    color: gray;
+    padding-top: 40px;
+    line-height: 60px;
+}
+
+.tb_top {
+    width: 850px;
+    border-spacing: 0;
+}
+
+.tb_top tr {
+    text-align: center;
+}
+
+.tb_top tr th {
+    background-color: #3b4d63;
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.tb_top tr th:nth-child(odd) {
+    width: 30%;
+}
+
+.tb_top tr th:nth-child(even) {
+    width: 20%;
+}
+
+.xh {
+    margin: 10px auto;
+
+}
+
+.tb_bottom {
+    width: 850px;
+    line-height: 35px;
+    border-spacing: 0;
+    color: grey;
+    border-collapse: collapse;
+}
+
+.tb_bottom tr {
+    text-align: center;
+}
+
+.tb_bottom tr:nth-child(odd) {
+    background: #f2f2f2;
+}
+
+.tb_bottom tr td {
+    border: 1px solid grey;
+
+}
+
+.tb_bottom tr td:nth-child(odd) {
+    width: 30%;
+}
+
+.tb_bottom tr td a {
+    text-decoration: none;
+    color: grey;
+}
