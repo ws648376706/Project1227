@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 14px;
+}
+
+.main {
+    width: 955px;
+    margin: 15px auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.touxiang {
+    background-color: #e8edf0;
+    width: 210px;
+    height: 190px;
+    font-size: 14px;
+}
+
+.photo {
+    margin-top: 13px;
+}
+
+.touxiang span {
+    width: 44px;
+    display: inline-block;
+}
+
+.caidan {
+    margin-top: 10px;
+    background-color: #e8edf0;
+    height: 270px;
+
+}
+
+.caidan ul li a {
+    font-size: 16px;
+    line-height: 43px;
+    width: 170px;
+    height: 43px;
+    display: inline-block;
+}
+
+.caidan span {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+}
+
+.caidan ul li a:hover {
+    background-color: #666666;
+    color: white;
+}
+
+.caidan ul li {
+    width: 170px;
+    height: 43px;
+    cursor: pointer;
+    border-bottom: 1px solid #919191;
+    text-align: center;
+
+    margin-left: 20px;
+}
+
+.gonggao {
+    width: 210px;
+    height: 300px;
+    background-color: #f7f7f7;
+}
+
+.gonggao p {
+    color: #666666;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 30px;
+    border-bottom: 1px solid #666666;
+    padding-top: 20px;
+}
+
+.xiazai li {
+    background: url("../images/xztb.png") no-repeat 0 4px;
+    padding-left: 25px;
+    line-height: 25px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.xiazai li:hover {
+    background-position: 0 -24px;
+}
+
+.right {
+    width: 730px;
+    height: 760px;
+    margin-left: 15px;
+    border: 1px solid #e8edf0;
+    border-bottom: 3px solid #e8edf0;
+}
+
+.right h5 {
+    width: 100%;
+    line-height: 35px;
+    background-color: #e8edf0;
+    color: #666666;
+}
+
+.right h5 span {
+    padding-left: 20px;
+}
+
+.right span {
+    font-size: 14px;
+}
+
+.xuanze {
+    width: 260px;
+    padding: 5px 10px;
+}
+
+.miaoshu {
+    color: #666666;
+    position: relative;
+    top: 15px;
+}
+
+.right_mid {
+    width: 680px;
+    position: relative;
+    top: 35px;
+    left: 28px;
+}
+
+.webinfo {
+    font-size: 15px;
+    color: #666666;
+    margin-top: 15px;
+}
+
+.webinfo input {
+    width: 230px;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.webinfo div {
+    margin-bottom: 15px;
+    margin-left: 180px;
+}
+
+.webinfo label {
+    position: relative;
+    left: 36px;
+    top: 22px;
+}
+
+.webinfo div span {
+    color: #2d2d2d;
+    font-size: 15px;
+}
+
+.tijiao span {
+    margin-left: 45px;
+    border: 1px solid #ec7455;
+    color: #ec7455;
+    padding: 2px 17px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.tijiao {
+    position: relative;
+    left: 200px;
+    top: 40px;
+}
+
+.rlwz {
+    overflow-y: scroll;
+    height: 200px;
+    border: 1px solid #666666;
+}
+
+.rlwz td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.tb {
+    width: 660px;
+    font-size: 15px;
+    color: #666666;
+    text-align: center;
+    padding-top: 10px;
+    table-layout: fixed;
+}
+
+.td_1 {
+    width: 132px;
+}
+
+.td_2 {
+    width: 99px;
+}
+
+.td_3 {
+    width: 165px;
+}
+
+.td_4 {
+    width: 165px;
+}
+
+.td_5 {
+    width: 99px;
+}
+
+.right_mid h4 {
+    background: url("../images/yuan.png") no-repeat 8px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3b4d63;
+}
+
+.right_mid h4 div {
+    position: relative;
+    left: 20px;
+    top: -8px;
+}

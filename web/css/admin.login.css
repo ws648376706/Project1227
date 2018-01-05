@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-family: 微软雅黑;
+}
+
+.main{
+    width: 955px;
+    height: 400px;
+    margin-top: 25px;
+}
+
+.main h4{
+    background-color: #eeeeee;
+    line-height: 40px;
+
+}
+.main h4 span{
+    height:40px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 0 15px;
+    color: #7b7b7b;
+}
+.jump{
+    border: 2px solid #eeeeee;
+    height: 300px;
+}
+
+.tijiao span{
+    margin-left: 45px;
+    border: 1px solid #ec7455;
+    color: #ec7455;
+    padding: 2px 17px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.tijiao{
+    position: relative;
+    left: 270px;
+    top: 70px;
+}
+
+.admininfo{
+    font-size: 15px;
+    color: #666666;
+    position: relative;
+    left: 170px;
+    top: 20px;
+}
+.admininfo input{
+    width: 230px;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+.admininfo div{
+    margin-bottom: 15px;
+    margin-left: 180px;
+}
+
+.admininfo label{
+    position: relative;
+    left: 80px;
+    top: 25px;
+}
