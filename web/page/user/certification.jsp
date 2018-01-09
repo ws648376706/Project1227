@@ -12,24 +12,59 @@
     <title>全国公安机关互联网站安全服务平台</title>
     <link rel="stylesheet" href="../../../font-awesome-4.7.0/css/font-awesome.css">
     <script src="../../js/apply.newWebSite.js"></script>
+    <link rel="stylesheet" href="../../css/top_bottom_p.css">
     <link rel="stylesheet" href="../../css/user.personalInfo.css">
 </head>
 <body>
+<div class="wrapper">
+    <!-- 页面头 -->
+    <!-- start:头部 -->
+    <div class="wr_top">
+        <div>
+            <a class="logo">
+                <img src="../../images/logo.png">
+            </a>
+        </div>
+        <div class="sele">
+            <form action="" method="post">
+                <input class="in3" type="text" placeholder="备案查询">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </form>
+        </div>
+        <div class="tr">
+            <table>
+                <tr class="a">
+                    <td><a style="font-size: 15px" href="">主页</a></td>
+                    <td><a style="font-size: 15px" href="">系统通知</a></td>
+                    <td><a style="font-size: 15px" href="">个人中心</a></td>
+                    <td><a style="font-size: 15px" href="">注销</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>
+</div>
+<div class="heng">
+    <img src="../../images/360截图20171227112025406.jpg" alt="">
+</div>
+
+<!-- end:头部 -->
 <div class="main">
     <div class="left">
         <div class="touxiang">
-            <span></span><img src="../../images/wutouxiang.png" height="121" width="121" class="photo"/>
-            <br><span></span>账号：
-            <br><span></span>姓名：
-            <br><span></span>手机：
+            <span></span><img src="${user.getPhoto()}" height="121" width="121" class="photo"/>
+            <br><span></span>账号：${user.getUsername()}
+            <br><span></span>姓名：${user.getRealname()}
+            <br><span></span>手机：${user.getTele()}
         </div>
         <div class="caidan">
             <ul>
                 <span></span>
-                <li class="grzl"><a href="personalInfo.html">个人资料</a></li>
-                <li class="txsz"><a href="personalHeadPicSet.html">头像设置</a></li>
-                <li class="xyrz"><a href="certification.html">修改密码</a></li>
-                <li class="xttz"><a href="systemInform.html">系统通知</a></li>
+                <li class="grzl"><a href="personalInfo.jsp">个人资料</a></li>
+                <li class="txsz"><a href="personalHeadPicSet.jsp">头像设置</a></li>
+                <li class="xyrz"><a href="certification.jsp">修改密码</a></li>
+                <li class="xttz"><a href="systemInform.jsp">系统通知</a></li>
             </ul>
         </div>
         <div class="gonggao">
@@ -73,5 +108,31 @@
         </form>
     </div>
 </div>
+<!--start:尾部分-->
+<div class="z_footerk">
+    <div class="z_footer">
+        <div class="div4">
+            <img class="gongantupian" src="../../images/360截图20171227112354437.jpg" alt="">
+        </div>
+        <div class="div5">
+            <p>
+                Copyright2017 公安部网络安全保卫局 All Rights Reserved
+            </p>
+            <p>
+                京ICP备05070602号&nbsp;&nbsp;&nbsp;
+                邮箱：support@beian.gov.cn
+            </p>
+            <p class="pp1">
+                <img src="../../images/ghs.png">
+                京公网安备 11010102002019号
+                &nbsp;&nbsp;&nbsp;建议使用1024*768以上分辨率浏览
+            </p>
+        </div>
+        <div class="div7">
+            <img src="../../images/jiucuo.png" alt="">
+        </div>
+    </div>
+</div>
+<!--end:尾部分-->
 </body>
 </html>

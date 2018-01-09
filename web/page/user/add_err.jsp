@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: ttc
-  Date: 17-12-27
-  Time: 下午7:03
+  Date: 18-1-8
+  Time: 下午4:11
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -10,10 +10,10 @@
 <head>
     <link rel="shortcut icon" href="../images/ico.ico" type="image/x-icon"/>
     <title>全国公安机关互联网站安全服务平台</title>
-    <link rel="stylesheet" href="../css/recordInform.css">
     <link rel="stylesheet" href="../../font-awesome-4.7.0/css/font-awesome.css">
-    <script src="../js/record.js" ></script>
-    <link rel="stylesheet" href="../css/top_bottom_o.css">
+    <link rel="stylesheet" href="../../css/login_err.css">
+    <link rel="stylesheet" href="../../css/top_bottom_p.css">
+    <script src="../../js/admin.login_err.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -34,13 +34,10 @@
         <div class="tr">
             <table>
                 <tr class="a">
-                    <td><a style="font-size: 15px" href="">首页</a></td>
-                    <td><a style="font-size: 15px" href="">公共查询</a></td>
-                    <td><a style="font-size: 15px" href="">后台通知公告</a></td>
-                    <td><a style="font-size: 15px" href="">常见问题</a></td>
-                    <td><a style="font-size: 15px" href="">政策法规</a></td>
-                    <td><a style="font-size: 15px" href="">通知公告</a></td>
-                    <td><a style="font-size: 15px" href="">备案展厅</a></td>
+                    <td><a style="font-size: 15px" href="">主页</a></td>
+                    <td><a style="font-size: 15px" href="">系统通知</a></td>
+                    <td><a style="font-size: 15px" href="">个人中心</a></td>
+                    <td><a style="font-size: 15px" href="">注销</a></td>
                 </tr>
             </table>
         </div>
@@ -53,28 +50,17 @@
 </div>
 
 <!-- end:头部 -->
-<div class="allpage">
-    <div class="main">
-        <div class="left">
-            <h5>信息浏览</h5>
-            <ul class="lb_list">
-                <li><a href="#">常见问题</a></li>
-                <li><a href="#">政策法规</a></li>
-                <li><a href="#">通知公告</a></li>
-                <li><a href="#" style="color: red;background-color: #F5F2EE;">备案须知</a></li>
-                <li><a href="#">下载中心</a></li>
-            </ul>
+<div class="main">
+    <h4><span>错误提示</span></h4>
+    <div class="jump">
+        <div class="tishi">
+            <img src="../../images/dlerr.jpg" height="112" width="144"/>
+            <br>
         </div>
-        <div class="right">
-            <h5><span id="type">备案须知</span></h5>
-            <ul class="rb_list" id="rb_list">
-                <li><a href="#">互联网信息服务单位网络安全责任告知书</a><span></span></li>
-                <li><a href="#">计算机信息网络国际联网安全保护管理办法（公安部第33号令）</a><span></span></li>
-                <li><a href="#">全国人民代表大会常务委员会关于加强网络信息保护的决定</a><span></span></li>
-                <li><a href="#">关于规范网络转载版权秩序的通知</a><span></span></li>
-                <li><a href="#">互联网新闻信息服务单位约谈工作规定</a><span></span></li>
-                <li><a href="#">互联网信息服务安全检查接收材料清单</a><span></span></li>
-            </ul>
+        <div class="info">
+            <h5>添加失败！</h5>
+            <br>
+            <h5>系统将在<span id="sp">5</span>秒后跳转到登录页</h5>
         </div>
     </div>
 </div>

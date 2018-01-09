@@ -1,0 +1,601 @@
+/*页面头*/
+.container {
+    width: 1423px;
+    height: 100px;
+}
+
+.form-start {
+    display: block;
+    margin-top: -80px;
+}
+
+a {
+    color: #666666;
+    text-decoration: none;
+}
+
+div.logo-right.index-top {
+    width: 546px;
+    height: 80px;
+}
+
+.index-top {
+    margin-top: 20px;
+}
+
+.logo-right {
+    font-size: 13px;
+    height: 80px;
+    float: right;
+}
+
+div.input-append.pull-right {
+    width: 180px;
+    height: 27px;
+    border: 1px solid #9a9a9a;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.span2 {
+    line-height: 25px;
+    border-radius: 5px;
+    border-style: none;
+    line-height: 25px;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.add-on {
+    cursor: pointer;
+}
+
+.pull-right {
+    float: right;
+}
+
+.tr {
+    width: 546px;
+    height: 60px;
+    padding-top: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+
+}
+
+.a4 {
+    width: 52px;
+    height: 34px;
+    left: 0;
+    color: red;
+}
+
+.a2 {
+    width: 78px;
+    height: 34px;
+    padding-left: 10px;
+
+}
+
+.a3 {
+    width: 104px;
+    height: 34px;
+    padding-left: 10px;
+}
+
+a:hover {
+    color: red
+}
+
+.heng {
+    position: relative;
+    top: -8px;
+    margin-left: -3px;
+}
+
+/*!*start中间部分*!*/
+
+.z_indexk {
+    clear: both;
+    width: 1423px;
+/ / 左右不允许出现浮动 height: 955 px;
+    margin-left: -3px;
+}
+
+.nav {
+    margin-left: 0px;
+    list-style: none;
+}
+
+.index_content {
+    min-height: 450px;
+}
+
+/*start:登录页*/
+
+.dengluye {
+    background: url("../images/360截图20171227111905578.jpg") no-repeat;
+    width: 1420px;
+    height: 382px;
+    margin-top: -19px;
+}
+
+.zhanghao {
+    position: relative;
+    display: block;
+}
+
+.login {
+    width: 315px;
+    height: 330px;
+    margin-left: 845px;
+
+    border: 1px solid #efefef;
+    /*z-index: 1;*/
+    background-color: white;
+    border-radius: 5px;
+}
+
+.wangzhanyonghu {
+    width: 100px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 140px;
+    height: 27px;
+    padding-left: 0px;
+    border-radius: 5px;
+
+}
+
+.input1 {
+    width: 60px;
+    height: 22px;
+    border-radius: 5px;
+}
+
+.name {
+    margin-left: 45px;
+    padding-top: 65px;
+    margin-top: 10px;
+}
+
+.password {
+    margin-left: 60px;
+}
+
+.yanzhengma {
+    margin-left: 45px;
+
+}
+
+.forget {
+    text-decoration: none;
+    width: 330px;
+    height: 20px;
+    padding-left: 190px;
+}
+
+.denglu {
+    text-decoration: none;
+    width: 200px;
+    height: 35px;
+    padding-left: 0px;
+    border: 1px solid #da4f49;
+    border-radius: 5px;
+    background-color: #da4f49;
+    font-size: 20px;
+    color: white;
+    margin-left: 58px;
+    cursor: pointer;
+}
+
+.zhuce {
+    text-decoration: none;
+    width: 330px;
+    height: 35px;
+    padding-left: 58px;
+    font-size: 17px;
+}
+
+/*!*end:登录页*!*/
+/*start：注册页*/
+.zhuceye {
+    width: 315px;
+    height: 335px;
+    border: 1px solid #efefef;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 845px;
+    display: none;
+    position: relative;
+}
+
+.putong_zhuce {
+    text-align: center;
+    width: 318px;
+    height: 20px;
+    position: relative;
+    top: 15px;
+}
+
+.input_zhuce {
+    padding-top: 20px;
+}
+
+.ruozhongqiang {
+    width: 10px;
+    height: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 125px;
+}
+
+.ruo {
+    width: 25px;
+    height: 20px;
+    background-color: yellow;
+    margin-left: -30px;
+    padding-left: 10px;
+}
+
+.zhong {
+    width: 25px;
+    height: 20px;
+    background-color: yellow;
+    margin-left: 22px;
+    margin-top: -20px;
+    padding-left: 10px;
+}
+
+.qiang {
+    width: 25px;
+    height: 20px;
+    background-color: yellow;
+    margin-left: 75px;
+    margin-top: -20px;
+    padding-left: 10px;
+}
+
+.yonghuming {
+    border-radius: 5px;
+    padding-top: 8px;
+
+}
+
+.yonghuming1 {
+    padding-left: 35px;
+}
+
+.mima1 {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.mima {
+    border-radius: 5px;
+    padding-top: 8px;
+}
+
+.querenmima {
+    border-radius: 5px;
+    padding-top: 8px;
+}
+
+.querenmima1 {
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+.youxiang1 {
+    padding-left: 51px;
+    padding-top: 0px;
+    margin-top: -8px;
+}
+
+.youxiang {
+    border-radius: 5px;
+    padding-top: 8px;
+}
+
+.shoujihao {
+    border-radius: 5px;
+    padding-top: 8px;
+    margin-top: -8px;
+}
+
+.shoujihao1 {
+    padding-left: 35px;
+
+}
+
+.yanzhengma2 {
+    border-radius: 5px;
+    padding-top: 8px;
+    width: 60px;
+}
+
+.yanzhengma1 {
+    padding-left: 35px;
+    margin-top: 10px;
+
+}
+
+.shoujiyanzhengma {
+    border-radius: 5px;
+    padding-top: 8px;
+    margin-top: -8px;
+    width: 60px;
+}
+
+.shoujiyanzhengma1 {
+    padding-left: 3px;
+}
+
+.huoquyanzhengma {
+    padding-left: 5px;
+    border-radius: 5px;
+    width: 80px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.yiyouzhanghao {
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.yiyouzhanghao1 {
+    margin-left: 20px;
+}
+
+.yiyouzhanghao a {
+    text-decoration: none;
+    color: #3b4d63;
+}
+
+.yiyou_zhuce {
+    margin-left: 10px;
+    width: 95px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/*end：注册页*/
+.container1 {
+    width: 951px;
+    margin: 0 auto;
+}
+
+.index_left {
+    width: 292px;
+    float: left;
+    margin-top: 0px;
+    border: 1px solid #efefef;
+}
+
+.tongzhi {
+    width: 292px;
+    height: 350px;
+    margin-left: -5px;
+    padding: 30px 5px 0;
+}
+
+.tupian {
+    width: 290px;
+    height: 35px;
+}
+
+.index_right {
+    float: right;
+}
+
+.content1 {
+    width: 312px;
+    height: 212px;
+    padding-left: 332px;
+}
+
+.co-1 {
+    width: 320px;
+    height: 212px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+}
+
+.cont-1 {
+    width: 320px;
+    height: 212px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+}
+
+.cont-3 {
+    width: 320px;
+    height: 212px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+}
+
+.cont-4 {
+    width: 320px;
+    height: 212px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+}
+
+.content2 {
+    width: 312px;
+    height: 212px;
+    margin-top: -229px;
+}
+
+.content3 {
+    width: 312px;
+    height: 212px;
+    padding-left: 332px;
+    margin-top: 10px;
+}
+
+.content4 {
+    width: 312px;
+    height: 212px;
+    padding-left: 0px;
+    margin-top: -212px;
+
+}
+
+.index_right.content {
+    width: 310px;
+    border: 1px solid #e8edf0;
+    float: right;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.index_right.content h5 {
+    background: #e8edf0;
+    line-height: 30px;
+    padding-left: 10px;
+    margin: 0px;
+    font-weight: 400;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.ul.tz_list.listr {
+    width: 290px;
+    height: 170px;
+}
+
+.listr {
+    padding-bottom: 20px;
+}
+
+.tz_list {
+    clear: both;
+    list-style: none;
+    margin: 10px 5px 0 15px;
+    height: 150px;
+}
+
+.span3 {
+    width: 39px;
+    height: 11px;
+}
+
+.h5 {
+    width: 311px;
+    height: 30px;
+    background-color: #e8edf0;
+    line-height: 30px;
+    padding-left: 10px;
+    margin: 0px;
+    font-weight: 400;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.a1 {
+    width: 39px;
+    height: 20px;
+    position: relative;
+    left: 200px;
+}
+
+.li {
+    width: 280px;
+    height: 28px;
+}
+
+.tz_list li{
+    position: relative;
+    left: -40px;
+    line-height: 30px;
+    font-size: 15px;
+    width: 300px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/*end中间部分*/
+
+/*start:尾部分*/
+.z_footerk {
+    background-color: #efefef;
+    position: absolute;
+    top: 970px;
+    width: 1420px;
+}
+
+.z_footer {
+    width: 1407px;
+    height: 80px;
+    display: block;
+    margin-top: 20px;
+}
+
+.div3 {
+    margin-left: 210px;
+    width: 950px;
+    height: 79px;
+}
+
+.div4 {
+    margin-top: 0px;
+    margin-left: 120px;
+
+}
+
+.div5 {
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 245px;
+    margin-top: -80px;
+}
+
+.div6 {
+    width: 440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.aa1 {
+    display: inline-block;
+    text-decoration: none;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.pp1 {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin: 0px 0px 0px 5px;
+    color: #666666;
+}
+
+.div7 {
+    position: relative;
+    bottom: 65px;
+}
+
+/*end:尾部分*/
+

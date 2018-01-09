@@ -5,8 +5,19 @@ package com;
  */
 public class Topic
 {
+    private String topicid;
     private String topicname;
     private String topicnotice;
+
+    public String getTopicid()
+    {
+        return topicid;
+    }
+
+    public void setTopicid(String topicid)
+    {
+        this.topicid = topicid;
+    }
 
     public String getTopicname()
     {

@@ -1,13 +1,18 @@
 * {
     padding: 0;
+    margin: 0;
     font-family: 微软雅黑;
-    margin: 0 auto;
-}
 
+}
+.allpage {
+    width: 100%;
+    margin-bottom: 50px;
+}
 .main {
     background: url("../images/exinfo.png") no-repeat center;
     width: 955px;
     height: 850px;
+    margin: 0 auto;
 }
 
 .main h4 {
@@ -20,6 +25,8 @@
 }
 
 .tb_top {
+    position: relative;
+    left: 50px;
     width: 850px;
     border-spacing: 0;
 }
@@ -44,7 +51,9 @@
 }
 
 .xh {
-    margin: 10px auto;
+    position: relative;
+    left: 50px;
+    margin: 0 auto;
 
 }
 
